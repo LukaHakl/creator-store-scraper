@@ -1,0 +1,6 @@
+# The tested logic -- parsing, validation, copy rewriting, checkpointing --
+# needs nothing beyond the standard library. Only running the scraper against a
+# live storefront needs a browser driver.
+selenium==4.36.0
+
+pytest==9.1.1          # tests only
